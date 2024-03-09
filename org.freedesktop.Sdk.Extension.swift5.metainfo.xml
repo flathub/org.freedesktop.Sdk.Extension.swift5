@@ -12,6 +12,9 @@
   <developer_name>david-swift</developer_name>
   <update_contact>haenerdavid@icloud.com</update_contact>
   <releases>
+    <release version="5.10" date="2024-03-09">
+      <description>Update to Swift 5.10.</description>
+    </release>
     <release version="5.9.2" date="2024-02-10">
       <description>This is the initial release providing Swift 5.9.2.</description>
     </release>
