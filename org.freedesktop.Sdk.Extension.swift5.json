@@ -9,7 +9,6 @@
     ],
     "runtime-version": "23.08",
     "separate-locales": false,
-    "appstream-compose": false,
     "build-options": {
         "prefix": "/usr/lib/sdk/swift5",
         "prepend-pkg-config-path": "/usr/lib/sdk/swift5/lib/pkgconfig/"
