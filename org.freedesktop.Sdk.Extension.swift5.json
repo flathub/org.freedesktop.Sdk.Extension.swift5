@@ -132,8 +132,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/apple/swift-format/archive/refs/tags/510.0.0.tar.gz",
-                    "sha256": "9bb6b35262b09268a2920b3152b5d2c53a33ef469024692f3d359f3cb97628d8"
+                    "url": "https://github.com/apple/swift-format/archive/refs/tags/510.1.0.tar.gz",
+                    "sha256": "2174db6f721e66ddc95263239e4dd6112f81833bbf9cd4051cf9d3dca0f7b7fe"
                 },
                 {
                     "type": "git",
