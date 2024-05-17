@@ -46,94 +46,27 @@
             ]
         },
         {
-            "name": "SwiftLint",
-            "buildsystem": "simple",
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://github.com/realm/SwiftLint/archive/refs/tags/0.54.0.zip",
-                    "sha256": "0f0bd419406eb3a5d08382cacba79911f8b94ac3f442e461c96649689d1ee31e"
-                },
-                {
-                    "type": "git",
-                    "url": "https://github.com/JohnSundell/CollectionConcurrencyKit.git",
-                    "disable-shallow-clone": true,
-                    "commit": "b4f23e24b5a1bff301efc5e70871083ca029ff95",
-                    "dest": "CollectionConcurrencyKit"
-                },
-                {
-                    "type": "git",
-                    "url": "https://github.com/krzyzanowskim/CryptoSwift.git",
-                    "disable-shallow-clone": true,
-                    "commit": "db51c407d3be4a051484a141bf0bff36c43d3b1e",
-                    "dest": "CryptoSwift"
-                },
-                {
-                    "type": "git",
-                    "url": "https://github.com/jpsim/SourceKitten.git",
-                    "disable-shallow-clone": true,
-                    "commit": "b6dc09ee51dfb0c66e042d2328c017483a1a5d56",
-                    "dest": "SourceKitten"
-                },
-                {
-                    "type": "git",
-                    "url": "https://github.com/apple/swift-argument-parser.git",
-                    "disable-shallow-clone": true,
-                    "commit": "8f4d2753f0e4778c76d5f05ad16c74f707390531",
-                    "dest": "swift-argument-parser"
-                },
-                {
-                    "type": "git",
-                    "url": "https://github.com/apple/swift-syntax.git",
-                    "disable-shallow-clone": true,
-                    "commit": "6ad4ea24b01559dde0773e3d091f1b9e36175036",
-                    "dest": "swift-syntax"
-                },
-                {
-                    "type": "git",
-                    "url": "https://github.com/scottrhoyt/SwiftyTextTable.git",
-                    "disable-shallow-clone": true,
-                    "commit": "c6df6cf533d120716bff38f8ff9885e1ce2a4ac3",
-                    "dest": "SwiftyTextTable"
-                },
-                {
-                    "type": "git",
-                    "url": "https://github.com/drmohundro/SWXMLHash.git",
-                    "disable-shallow-clone": true,
-                    "commit": "a853604c9e9a83ad9954c7e3d2a565273982471f",
-                    "dest": "SWXMLHash"
-                },
-                {
-                    "type": "git",
-                    "url": "https://github.com/jpsim/Yams.git",
-                    "disable-shallow-clone": true,
-                    "commit": "0d9ee7ea8c4ebd4a489ad7a73d5c6cad55d6fed3",
-                    "dest": "Yams"
-                },
-                {
-                    "type": "file",
-                    "path": "swift-lint-setup-offline.sh"
-                },
-                {
-                    "type": "file",
-                    "path": "swiftlint.patch"
-                }
-            ],
-            "build-commands": [
-                "./swift-lint-setup-offline.sh",
-                "/usr/lib/sdk/swift5/bin/swift build -c release --skip-update",
-                "strip -s .build/release/swiftlint",
-                "cp .build/release/swiftlint /usr/lib/sdk/swift5/bin/"
-            ]
-        },
+	    "name": "SwiftLint",
+	    "buildsystem": "simple",
+	    "sources": [
+		{
+		    "type": "archive",
+		    "url": "https://github.com/realm/SwiftLint/releases/download/0.55.1/swiftlint_linux.zip",
+		    "sha256": "7a9ba94b35cd444f39f3d8b346958830a7da7bb4eee42a5fb2c153f5106bc7b4"
+		}
+	    ],
+	    "build-commands": [
+		"cp swiftlint /usr/lib/sdk/swift5/bin/"
+	    ]
+	},
         {
             "name": "swift-format",
             "buildsystem": "simple",
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/apple/swift-format/archive/refs/tags/510.0.0.tar.gz",
-                    "sha256": "9bb6b35262b09268a2920b3152b5d2c53a33ef469024692f3d359f3cb97628d8"
+                    "url": "https://github.com/apple/swift-format/archive/refs/tags/510.1.0.tar.gz",
+                    "sha256": "2174db6f721e66ddc95263239e4dd6112f81833bbf9cd4051cf9d3dca0f7b7fe"
                 },
                 {
                     "type": "git",
