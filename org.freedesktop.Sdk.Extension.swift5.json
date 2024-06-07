@@ -25,14 +25,14 @@
                 {
                     "type": "archive",
                     "only-arches": ["x86_64"],
-                    "url": "https://download.swift.org/swift-5.10-release/amazonlinux2/swift-5.10-RELEASE/swift-5.10-RELEASE-amazonlinux2.tar.gz",
-                    "sha256": "845702ca6a4a9966ce5de5a850e3a6585d4fdff166310be811cb6d6ad61ba23e"
+                    "url": "https://download.swift.org/swift-5.10.1-release/amazonlinux2/swift-5.10.1-RELEASE/swift-5.10.1-RELEASE-amazonlinux2.tar.gz",
+                    "sha256": "2a430fde80c558875507808d9bfcb1afe39effaa683c14b3c72d6b84380de267"
                 },
                 {
                     "type": "archive",
                     "only-arches": ["aarch64"],
-                    "url": "https://download.swift.org/swift-5.10-release/amazonlinux2-aarch64/swift-5.10-RELEASE/swift-5.10-RELEASE-amazonlinux2-aarch64.tar.gz",
-                    "sha256": "8a107292584b1f4e4723bc3b0cdb3b04d654aea09bda9a65f31c38aad71180bb"
+                    "url": "https://download.swift.org/swift-5.10.1-release/amazonlinux2-aarch64/swift-5.10.1-RELEASE/swift-5.10.1-RELEASE-amazonlinux2-aarch64.tar.gz",
+                    "sha256": "d5de792679ab9ba1336377ab941b7550ce0b9f5d0f65ee228b80e811de2f308b"
                 },
                 {
                     "type": "file",
